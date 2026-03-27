@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>小狗年齡計算機</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h1>小狗年齡計算</h1>
+
+      <div class="form-group">
+        <label for="birthday">請選擇小狗生日</label>
+        <input type="date" id="birthday" />
+      </div>
+
+      <button id="calculateBtn">確認輸入</button>
+
+      <div class="result" id="result">請先選擇小狗生日。</div>
+      <div class="hint">換算公式：human_age = 16 ln(dog_age) + 31</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
