@@ -1,114 +1,117 @@
- * {
-      box-sizing: border-box;
-    }
+* {
+  box-sizing: border-box;
+}
 
-    body {
-      margin: 0;
-      font-family: "Microsoft JhengHei", "Noto Sans TC", sans-serif;
-      background: linear-gradient(135deg, #fff7ed, #ffedd5);
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 24px;
-      color: #333;
-    }
+body {
+  margin: 0;
+  font-family: "Microsoft JhengHei", "Noto Sans TC", sans-serif;
+  background: linear-gradient(135deg, #fff7ed, #ffedd5);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  color: #333;
+}
 
-    .card {
-      width: 100%;
-      max-width: 460px;
-      background: #ffffff;
-      border-radius: 24px;
-      padding: 36px 28px;
-      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
-      text-align: center;
-    }
+.card {
+  width: 100%;
+  max-width: 460px;
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 36px 28px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
 
-    h1 {
-      margin: 0 0 24px;
-      text-align: center;
-      font-size: 32px;
-      color: #b45309;
-    }
+h1 {
+  margin: 0 0 24px;
+  text-align: center;
+  font-size: 32px;
+  color: #b45309;
+}
 
-    .form-group {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      margin-bottom: 20px;
-    }
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
 
-    label {
-      font-size: 16px;
-      font-weight: 600;
-    }
+label {
+  font-size: 16px;
+  font-weight: 600;
+}
 
-    input[type="date"] {
-      padding: 12px;
-      border: 1px solid #d6d3d1;
-      border-radius: 12px;
-      font-size: 16px;
-    }
+input[type="date"] {
+  padding: 12px;
+  border: 1px solid #d6d3d1;
+  border-radius: 12px;
+  font-size: 16px;
+}
 
-    button {
-      width: 100%;
-      border: none;
-      border-radius: 14px;
-      padding: 14px;
-      font-size: 16px;
-      font-weight: 700;
-      background: linear-gradient(135deg, #f59e0b, #f97316);
-      color: white;
-      cursor: pointer;
-      transition: transform 0.15s ease, opacity 0.15s ease, box-shadow 0.15s;
-      box-shadow: 0 6px 12px rgba(249, 115, 22, 0.4);
-    }
+button {
+  width: 100%;
+  border: none;
+  border-radius: 14px;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #f59e0b, #f97316);
+  color: white;
+  cursor: pointer;
+  transition:
+    transform 0.15s ease,
+    opacity 0.15s ease,
+    box-shadow 0.15s;
+  box-shadow: 0 6px 12px rgba(249, 115, 22, 0.4);
+}
 
-    button:hover {
-      opacity: 0.95;
-      box-shadow: 0 8px 18px rgba(249, 115, 22, 0.5);
-    }
+button:hover {
+  opacity: 0.95;
+  box-shadow: 0 8px 18px rgba(249, 115, 22, 0.5);
+}
 
-    button:active {
-      transform: scale(0.97);
-    }
+button:active {
+  transform: scale(0.97);
+}
 
-    button:hover {
-      opacity: 0.92;
-    }
+button:hover {
+  opacity: 0.92;
+}
 
-    button:active {
-      transform: scale(0.98);
-    }
+button:active {
+  transform: scale(0.98);
+}
 
-    .result {
-      margin-top: 24px;
-      padding: 18px;
-      background: #fff7ed;
-      border-radius: 14px;
-      line-height: 1.8;
-      font-size: 18px;
-      min-height: 80px;
-    }
+.result {
+  margin-top: 24px;
+  padding: 18px;
+  background: #fff7ed;
+  border-radius: 14px;
+  line-height: 1.8;
+  font-size: 18px;
+  min-height: 80px;
+}
 
-    .hint {
-      margin-top: 10px;
-      font-size: 14px;
-      color: #78716c;
-    }
+.hint {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #78716c;
+}
 
-    .dog-avatar {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 20px;
-    }
+.dog-avatar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
 
-    .dog-avatar svg {
-      width: 140px;
-      height: 140px;
-      border-radius: 50%;
-      border: 6px solid #fcd34d;
-      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-      background: #fff;
-      display: block;
-    }
+.dog-avatar svg {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 6px solid #fcd34d;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  display: block;
+}
